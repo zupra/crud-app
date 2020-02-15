@@ -1,0 +1,81 @@
+{
+  "name": "Dynamic CRUD",
+  "contentTypes": [
+    {
+      "name": "dog",
+      "label": "Dog",
+      "endpoint": "/dog",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text"
+        },
+        {
+          "name": "kind",
+          "label": "Kind",
+          "type": "text"
+        },
+        {
+          "name": "trustee",
+          "label": "Trustee",
+          "type": "text"
+        },
+        {
+          "name": "birth_time",
+          "label": "Birth_time",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "trustee",
+      "label": "Trustee",
+      "endpoint": "/trustee",
+      "fields": [
+        {
+          "name": "fio",
+          "label": "Fio",
+          "type": "text"
+        },
+        {
+          "name": "birth_time",
+          "label": "Birth_time",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "payment",
+      "label": "Payment",
+      "endpoint": "/payment",
+      "fields": [
+        {
+          "name": "dog",
+          "label": "Dog",
+          "type": "text"
+        },
+        {
+          "name": "sum",
+          "label": "Sum",
+          "type": "text"
+        },
+        {
+          "name": "purpose",
+          "label": "Purpose",
+          "type": "text"
+        },
+        {
+          "name": "time",
+          "label": "Time",
+          "type": "text"
+        },
+        {
+          "name": "trustee",
+          "label": "Trustee",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
